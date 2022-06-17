@@ -1,0 +1,250 @@
+@media screen and (min-width:375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        font-family: poppins;
+    }
+    main {
+        /* max-width: 375px; */
+        justify-content: center;
+    }
+    .One {
+        display: flex;
+        padding: 2%;
+        flex-direction: column;
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+        width: 98%;
+        animation-name: stud;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        flex-shrink: 1;
+    }
+    @keyframes stud {
+        50% {
+            background-color: rgb(132, 153, 132);
+        }
+        100% {
+            background-color: rgb(199, 184, 180);
+        }
+    }
+    .One:hover {
+        animation-play-state: paused;
+    }
+    .One #A {
+        width: 40%;
+        padding-left: 3%;
+    }
+    #A h2 {
+        text-transform: capitalize;
+        width: 250px;
+        height: 5%;
+        color: hsl(192, 100%, 9%);
+        font-size: 16px;
+        margin: 40% 0 2% 30%;
+    }
+    #A p {
+        width: 250px;
+        height: 10%;
+        text-align: left;
+        color: hsl(192, 100%, 9%);
+        font-size: 1em;
+        margin: 10% 0 2% 30%;
+    }
+    #A button {
+        background: hsl(322, 100%, 66%);
+        margin: 10% 0 2% 30%;
+        border: none;
+        border-radius: 20px;
+        font-size: 1em;
+        width: 190px;
+        height: 25%;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+    }
+    #A img {
+        width: 35%;
+        position: absolute;
+        top: 3%;
+    }
+    #B {
+        width: 40%;
+        padding-right: 3%;
+    }
+    #B img {
+        width: 250px;
+        margin: 10% 0 2% 30%;
+    }
+    #B button {
+        background: white;
+        /* margin: 0 0 80% 70%; */
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        border: none;
+        border-radius: 20px;
+        font-size: 1em;
+        width: 100px;
+        height: 4%;
+        text-align: center;
+        color: hsl(192, 100%, 9%);
+        box-shadow: 1px 1px 1px hsl(192, 100%, 9%), -1px -1px 1px hsl(192, 100%, 9%);
+    }
+    #B button:hover,
+    #A button:hover {
+        background: none;
+        border: 3px solid hsl(192, 100%, 9%);
+        color: hsl(192, 100%, 9%);
+        box-shadow: none;
+    }
+    .Two,
+    .Three,
+    .Four {
+        border-radius: 10px;
+        padding: 3%;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        background: hsl(193, 100%, 96%);
+        /* background: hsl(180, 1%, 82%); */
+        flex-shrink: 1;
+    }
+    .Two {
+        flex-direction: column-reverse;
+    }
+    #C h2,
+    #G h2 {
+        text-transform: capitalize;
+        width: 250px;
+        height: 5%;
+        color: hsl(192, 100%, 9%);
+        font-size: 16px;
+        margin: 5% 0 2% 35%;
+    }
+    #C p,
+    #G p {
+        width: 280px;
+        height: 8%;
+        text-align: left;
+        color: hsl(192, 100%, 9%);
+        font-size: 0.8em;
+        margin: 5% 0 2% 10%;
+    }
+    #D img,
+    #H img {
+        width: 250px;
+        margin: 5% 0 2% 10%;
+    }
+    img,
+    button,
+    p,
+    h2,
+    li,
+    .stu img {
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    img:hover,
+    h2:hover,
+    p:hover,
+    button:hover,
+    li:hover,
+    span:hover,
+    .stu img:hover {
+        transform: scale(1.1, 1.1);
+    }
+    /* .Three {
+        border-radius: 10px;
+        box-shadow: 0.5px 0.5px 3px -2px hsl(192, 78%, 18%), -0.5px -0.5px 3px -2 hsl(195, 7%, 34%);
+        padding: 3%;
+        margin: 5%;
+        display: flex;
+    } */
+    #E img {
+        width: 250px;
+        margin: 5% 0 2% 10%;
+    }
+    #F p {
+        width: 250px;
+        height: 20%;
+        text-align: left;
+        color: hsl(192, 100%, 9%);
+        font-size: 0.8em;
+        margin: 5% 0 2% 10%;
+    }
+    #F h2 {
+        text-transform: capitalize;
+        width: 250px;
+        height: 5%;
+        color: hsl(192, 100%, 9%);
+        font-size: 16px;
+        margin: 5% 0 2% 15%;
+    }
+    .Four {
+        flex-direction: column-reverse;
+    }
+    .Five {
+        background: hsl(192, 53%, 75%);
+        padding: 1%;
+        margin-top: 1%;
+        width: 88%;
+        z-index: 2;
+        color: hsl(192, 100%, 9%);
+        height: 90px;
+        border-radius: 10px;
+        /* margin-top: 8%; */
+        position: absolute;
+        top: 225%;
+        left: 20px;
+    }
+    .Five h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .Five button {
+        background: white;
+        margin: 1% 0 0 18%;
+        border: none;
+        border-radius: 20px;
+        font-size: 1em;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        color: hsl(192, 100%, 9%);
+        box-shadow: 1px 1px 1px hsl(192, 100%, 9%), -1px -1px 1px hsl(192, 100%, 9%);
+    }
+    .Five button:hover {
+        background: none;
+        border: 3px solid hsl(192, 100%, 9%);
+        color: hsl(192, 100%, 9%);
+        box-shadow: none;
+    }
+    .Six {
+        display: flex;
+        /* flex-flow: row wrap; */
+        background: rgb(51, 151, 173);
+        justify-content: space-between;
+        padding: 5%;
+        padding-top: 20%;
+        font-weight: 900px;
+        flex-direction: column;
+        color: white;
+    }
+    li {
+        list-style: none;
+        color: white;
+        transform: translateX(-80px)
+    }
+    .stu {
+        margin: 22%;
+    }
+    .stu img {
+        margin: 10%;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    span {
+        margin-left: 5%;
+    }
+}
